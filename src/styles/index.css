@@ -1,0 +1,287 @@
+body {
+  background-color: white;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav1{
+  display: flex;
+  justify-content: space-around;
+flex-direction: row;
+}
+#logo{
+  display: inline;
+  width: 50px;
+  height: 40px;
+  margin-top: 10px;
+padding: 0px 8px;
+
+
+}
+.search{
+  border: 1px solid #d1d1d1;
+  width: 420px;
+  height: 40px;
+  padding: 0px 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.search1{
+  width: 370px;
+  height: 38px;
+  border: 0px;
+  background-color: white;
+}
+.search2{
+  width: 24px;
+  height: 24px;
+  
+  color: #404040;
+}
+.nav2{
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 8px 0px 0px;
+  padding: 9px;
+
+}
+#create-post{
+  
+  border: #3b49df solid;
+  background-color: white;
+  width: 118.84px;
+  height: 40px;
+  border-radius: 9px;
+  font-size:16px ;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+#create-post:hover{
+  background-color: #3b49df;
+  color: white;
+  text-decoration: underline
+}
+#bell{
+  width: 24px;
+  height: 24px;
+  padding:8px ;
+  padding-top: 8px;
+}
+#account{
+  width: 40px;
+  height: 40px;
+}
+.lists{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #f5f5f5;
+  
+}
+#home1{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  /* padding: 10px; */
+}
+#home2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#reading_list1{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 10px;
+  /* margin: 0px  0px -30px 0px; */
+
+}
+#reading_list2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#Listings1{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 10px;
+  /* margin: 0px  0px -30px 0px; */
+
+}
+#Listings2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#Podcasts1{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 10px;
+  /* margin: 0px  0px -30px 0px; */
+
+}
+#Podcasts2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#Videos1{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 10px;
+  /* margin: 0px  0px -30px 0px; */
+
+}
+#Videos2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#Tags1{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 10px;
+  /* margin: 0px  0px -30px 0px; */
+
+}
+#Tags2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#FAQ1{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 10px;
+  /* margin: 0px  0px -30px 0px; */
+
+}
+#FAQ2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#Forem_Shop1{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 10px;
+  /* margin: 0px  0px -30px 0px; */
+
+}
+#Forem_Shop2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#Sponsors_Shop1{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 10px;
+  /* margin: 0px  0px -30px 0px; */
+
+}
+#Sponsors_Shop2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#About1{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 10px;
+  /* margin: 0px  0px -30px 0px; */
+
+}
+#About2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#Contact1{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding: 10px;
+  /* margin: 0px  0px -30px 0px; */
+
+}
+#Contact2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+.sosial{
+  display: flex;
+  justify-content: left;
+}
+#Twiter1{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding: 10px;
+}
+#Twiter2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#Facebook1{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding: 10px;
+}
+#Facebook2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#Github1{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding: 10px;
+}
+#Github2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#Instagram1{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding: 10px;
+}
+#Instagram2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
+#Chat1{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding: 10px;
+}
+#Chat2{
+  width: 24px;
+  height: 24px;
+  padding-top: 12px;
+}
